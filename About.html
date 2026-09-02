@@ -1,0 +1,168 @@
+<Doctype html>
+    <html>
+    <head>
+        <title>About Me</title>
+        <style>
+            body {
+                background: linear-gradient(135deg, #1e293b, #0f172a);  /* Background for the entire page */
+                color: #f8fafc; /* Text color */
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Sans-serif font for the body text */
+            }
+
+            h1 {
+                color:#f309d8fd; /* Color for the main title */
+                text-align: center; /* Center the title */
+                font-size: 50px; /* Large font size for the title */
+                font-family: 'Trebuchet MS', Arial, sans-serif; /* Font family for the title */
+            }
+
+            h3 {
+                color: #1095fafd; /* Color for the subheading */
+                text-align: center; /* Center the subheading */
+                font-size: 30px; /* Font size for the subheading */
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font for the subheading */
+            }
+
+            .pages {
+                background-color: #E4DBB2; /* Background for the navigation bar */
+                padding: 15px 40px; /* Padding inside the navigation bar */
+                text-align: center; /* Centers the navigation links */
+                font-size:30px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                border-radius: 50px; /* Rounded corners for the navigation bar */
+                transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+            }
+
+            .pages a {
+                color:#4A3C69; /* Text color for the navigation links */
+                margin: 50px; /* Space between the navigation links */
+                text-decoration: none; /* Removes the underline from links */
+                text-align:center; /* Centers the links horizontally */
+            }
+
+            .boxes {
+                display: flex; /* Use flexbox for box layout */
+                align-items: stretch; /* Align items to the top */
+                gap: 20px; /* Space between each box */
+                justify-content: center; /* Center the box horizontally */
+                margin: 0 auto; /* Center the box container */
+            }
+
+            .box {
+                background: rgb(250, 247, 247); /* Background for each box */
+                border: 6px solid rgb(244, 9, 9); /* Black border for each box */
+                border-radius: 6px; /* Rounded corners for boxes */
+                padding: 10px; /* Padding inside each box */
+                width: 65%; /* Each box takes up 65% of the width */
+                transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the hover effect */
+            }
+
+            .box.left {
+                text-align: center;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px; /* Center text in the left product box */
+                flex-wrap: wrap; /* Allow content to wrap to the next line if necessary */
+            }
+
+
+            .box img {
+                max-width: 100%; /* Ensure images fit within the product box */
+                height: auto; /* Maintain the aspect ratio of the images */
+                margin-bottom: 10px; /* Space between image and text */
+                max-height:100px; /* Limit the height of images */
+                width: auto; /* Maintain the aspect ratio of the images */
+                border-radius:4px; /* Slightly rounded corners for images */
+                object-fit:contain; /* Ensure the entire image fits within the box without distortion */
+            }
+
+            .images {
+                display: flex; /* Use flexbox for the images */
+                flex-wrap: wrap; /* Allow images to wrap to the next line if necessary */
+                justify-content: center; /* Center the images horizontally */
+                gap: 30px; /* Space between each image */
+                align-items: center; /* Center the images vertically */
+                width: 100%; /* Ensure the images container takes full width */
+            }
+
+            .images img {
+                max-width: 50%; /* Limit the maximum width of each image */
+                height: auto; /* Maintain the aspect ratio of the images */
+                max-height: 200px; /* Limit the maximum height of each image */
+            }
+
+            .box h3 {
+                font-size: 40px; /* Font size for home subtitles */
+                margin-bottom: 8px; /* Space below the home subtitle */
+                font-family: 'Trebuchet MS', Arial, sans-serif; /* Font for home subtitle */
+            }
+
+            .box p {
+                font-size: 25px; /* Font size for description */
+                color: #080304; /* Color for the description text */
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Font for description */
+            }
+
+            .nav-wrapper {
+                display: flex; /* Arrange items in a row */
+                align-items: center; /* Vertically center the items */
+                justify-content: center; /* Horizontally center the entire group */
+                margin-bottom: 20px; /* Add spacing below the navigation area */
+            }
+
+            .nav-icon {
+                width: 130px; /* Set width for icon */
+                height: auto; /* Maintain aspect ratio */
+                margin: 0 20px; /* Horizontal spacing around icons */
+            }
+
+            .box:hover {
+                transform: translateY(-50px); /* Lift the box slightly */
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add a soft shadow when hovered */
+            }
+        </style>
+    </head>
+
+    <body>
+
+    <div class="nav-wrapper">
+        <img src="c:\Users\aayus\Downloads\New folder\shark.jpg" class="nav-icon" alt="Tralelero Tralelela">
+
+        <div class="pages">
+            <a href="c:\Users\aayus\Downloads\New folder\Home.html">Home</a>
+            <a href="c:\Users\aayus\Downloads\New folder\About.html">About</a>
+            <a href="c:\Users\aayus\Downloads\New folder\Skills.html">Skills</a>
+            <a href="c:\Users\aayus\Downloads\New folder\Hobbies.html">Hobbies</a>
+            <a href="c:\Users\aayus\Downloads\New folder\Fun Facts.html">Fun Facts</a>
+        </div>
+        <img src="c:\Users\aayus\Downloads\New folder\shark.jpg" class="nav-icon" alt="Tralelero Tralelela">
+
+    </div>
+
+    <!-- Main title of the page -->
+    <h1>All You Need To Know About Me</h1>
+    <h3>"Jack Of All Trades"</h3>
+
+    <br><br>
+
+    <!-- Home Display Section -->
+    <div class="boxes">
+
+        <!-- First Box For Home -->
+        <div class="box left">
+
+            <div class="images">
+                <img src="c:\Users\aayus\Downloads\New folder\curry.png" alt="Curry"> <!-- Image for Best Shooter -->
+                <img src="c:\Users\aayus\Downloads\New folder\green fn.jpg" alt="green fn"> <!-- Image for Green Fn -->
+            </div>
+
+            <p>I am a 16-year-old high school student at Belize High School who enjoys technology, gaming, music, and learning about artificial intelligence. I also enjoy playing football and trying new things. I am deeply connected to my Indian culture and enjoy learning about and appreciating my heritage. In the future, I hope to have a career in AI or another field related to technology.</p>
+
+        </div>
+
+    </div>
+
+    </body>
+    </html>
