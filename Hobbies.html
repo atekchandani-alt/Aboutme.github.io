@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hobbies</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e293b, #0f172a);  /* Background for the entire page */
+            color: #f8fafc; /* Text color */
+            font-family: sans-serif; /* Sans-serif font for the body text */
+        }
+
+        h1 {
+            color:#ee05d3fd; /* Color for the main title */
+            text-align: center; /* Center the title */
+            font-size: 50px; /* Large font size for the title */
+            font-family: 'Trebuchet MS', Arial, sans-serif; /* Font family for the title */
+        }
+
+        h3 {
+            color: #1095fafd; /* Color for the subheading */
+            text-align: center; /* Center the subheading */
+            font-size: 30px; /* Font size for the subheading */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font for the subheading */
+        }
+
+        .hobby-container {
+            display: flex; /* Flexbox for the layout */
+            flex-wrap: wrap; /* Allows the hobby boxes to wrap to the next line if necessary */
+        }
+
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Serif font for paragraph text */
+            font-size:20px; /* Font size for the hobby description */
+            color:black;  /*Black color all paragraphs in the webpage */
+        }
+
+        .hobby-box {
+            background-color:#f0f0f0; /* Background for the hobby box */
+            border: 5px solid #f90b0b; /* Border color */
+            width: 315px; /* Fixed width for each hobby box */
+            padding: 10px; /* Padding inside the hobby box */
+            margin: 10px; /* Space between each hobby box */
+            text-align: center; /* Center-aligns text inside the hobby box */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+        }
+
+        .hobby-box:hover {
+            transform: translateY(-25px); /* Move the box up by 10px */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to give the lift effect */
+        }
+
+        .hobby-box img {
+            width: 225px; /* Fixed width for the hobby image */
+            height: 225px; /* Fixed height for the hobby image */
+        }
+
+        .pages {
+            background-color: #E4DBB2; /* Background for the navigation bar */
+            padding: 15px 40px; /* Padding inside the navigation bar */
+            text-align: center; /* Centers the navigation links */
+            font-size:30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            border-radius: 50px; /* Rounded corners for the navigation bar */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .pages a {
+            color:#4A3C69; /* Text color for the navigation links */
+            margin: 50px; /* Space between the navigation links */
+            text-decoration: none; /* Removes the underline from links */
+            text-align:center; /* Centers the links horizontally */
+        }
+
+        h2 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* System font for subheadings */
+            font-size:40px; /* Font size for subheadings */
+            color: rgb(19, 5, 30); /* Color for the subheading */
+            text-decoration: underline; /* Underlines the subheading */
+        }
+
+        .nav-wrapper {
+            display: flex; /* Arrange items in a row */
+            align-items: center; /* Vertically center the items */
+            justify-content: center; /* Horizontally center the entire group */
+            margin-bottom: 20px; /* Add spacing below the navigation area */
+        }
+
+        .nav-icon {
+            width: 130px; /* Set width for icon */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 20px; /* Horizontal spacing around icons */
+        }
+    </style>
+</head>
+<body>
+
+<div class="nav-wrapper">
+    <img src="c:\Users\aayus\Downloads\New folder\monkey.webp" class="nav-icon" alt="Monkey">
+
+    <div class="pages">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Skills.html">Skills</a>
+        <a href="Hobbies.html">Hobbies</a>
+        <a href="Fun Facts.html">Fun Facts</a>
+
+    </div>
+    <img src="c:\Users\aayus\Downloads\New folder\monkey.webp" class="nav-icon" alt="Monkey">
+
+</div>
+
+<h1>"What A Jack Of All Trades Does"</h1> <!-- Main title of the page -->
+
+<div class="hobby-container">
+    <!-- Each hobby is contained in a .hobby-box div -->
+
+    <div class="hobby-box">
+        <img src="c:\Users\aayus\Downloads\New folder\zidane.webp" alt="Football"> <!-- Hobby 1 Image -->
+        <h3>Playing Football</h3> <!-- Hobby 1 Name -->
+        <p>I play with prime Zidane vision and elite tactical positioning, but unfortunately, I am passing to teammates who play like they have Timberland boots on. My stats deserve better, but I'm still waiting for Real Madrid to scout me at school.</p> <!-- Hobby 1 Description -->
+    </div> <!-- End of hobby container -->
+
+    <div class="hobby-box">
+        <img src="c:\Users\aayus\Downloads\New folder\music.webp" alt="Music"> <!-- Hobby 2 Image -->
+        <h3>Listening To Music</h3> <!-- Hobby 2 Name -->
+        <p>Music is a huge part of my daily routine, whether I am focusing on homework, relaxing, or working on tech projects. I enjoy exploring different genres and artists from all over the world, discovering new sounds, and curating distinct playlists for every mood and activity..</p> <!-- Hobby 2 Description -->
+    </div> <!-- End of hobby container -->
+
+    <div class="hobby-box">
+        <img src="c:\Users\aayus\Downloads\New folder\siege.jpg" alt="Games"> <!-- Hobby 3 Image -->
+        <h3>Gaming</h3> <!-- Hobby 3 Name -->
+        <p>A natural gaming prodigy who feeds entirely on enemy tears. I don't just win every match; I intentionally deploy the most irritating playstyles possible just to watch my opponents rage-quit. Sleep is temporary, but the competitive grind is eternal.</p> <!-- Hobby 3 Description -->
+    </div> <!-- End of hobby container -->
+
+    <div class="hobby-box">
+        <img src="c:\Users\aayus\Downloads\New folder\chess.png" alt="Chess"> <!-- Hobby 4 Image -->
+        <h3>Chess</h3> <!-- Hobby 4 Name -->
+        <p>I calculate board states with absolute grandmaster precision, right up until I completely blunder my queen on move four because I got distracted. My tactical genius is simply misunderstood by the Elo rating system.</p> <!-- Hobby 4 Description -->
+    </div> <!-- End of hobby container -->
+
+
+</div>
+</body>
+</html>
