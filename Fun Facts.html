@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fun Facts</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e293b, #0f172a);  /* Background for the entire page */
+            color: #f8fafc; /* Text color */
+            font-family: sans-serif; /* Sans-serif font for the body text */
+        }
+
+        h1 {
+            color:#ee05d3fd; /* Color for the main title */
+            text-align: center; /* Center the title */
+            font-size: 50px; /* Large font size for the title */
+            font-family: 'Trebuchet MS', Arial, sans-serif; /* Font family for the title */
+        }
+
+        h3 {
+            color: #1095fafd; /* Color for the subheading */
+            text-align: center; /* Center the subheading */
+            font-size: 30px; /* Font size for the subheading */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font for the subheading */
+        }
+
+        .funfact-container {
+            display: flex; /* Flexbox for the layout */
+            flex-wrap: wrap; /* Allows the hobby boxes to wrap to the next line if necessary */
+        }
+
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Serif font for paragraph text */
+            font-size:20px; /* Font size for the fun fact description */
+            color:black;  /*Black color all paragraphs in the webpage */
+        }
+
+        .funfact-box {
+            background-color:#f0f0f0; /* Background for the fun fact box */
+            border: 5px solid #f90b0b; /* Border color */
+            width: 315px; /* Fixed width for each fun fact box */
+            padding: 10px; /* Padding inside the fun fact box */
+            margin: 10px; /* Space between each fun fact box */
+            text-align: center; /* Center-aligns text inside the fun fact box */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+        }
+
+        .funfact-box:hover {
+            transform: translateY(-25px); /* Move the box up by 10px */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to give the lift effect */
+        }
+
+        .funfact-box img {
+            width: 225px; /* Fixed width for the fun fact image */
+            height: 225px; /* Fixed height for the fun fact image */
+        }
+
+        .pages {
+            background-color: #E4DBB2; /* Background for the navigation bar */
+            padding: 15px 40px; /* Padding inside the navigation bar */
+            text-align: center; /* Centers the navigation links */
+            font-size:30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            border-radius: 50px; /* Rounded corners for the navigation bar */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .pages a {
+            color:#4A3C69; /* Text color for the navigation links */
+            margin: 50px; /* Space between the navigation links */
+            text-decoration: none; /* Removes the underline from links */
+            text-align:center; /* Centers the links horizontally */
+        }
+
+        h2 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* System font for subheadings */
+            font-size:40px; /* Font size for subheadings */
+            color: rgb(19, 5, 30); /* Color for the subheading */
+            text-decoration: underline; /* Underlines the subheading */
+        }
+
+        .nav-wrapper {
+            display: flex; /* Arrange items in a row */
+            align-items: center; /* Vertically center the items */
+            justify-content: center; /* Horizontally center the entire group */
+            margin-bottom: 20px; /* Add spacing below the navigation area */
+        }
+
+        .nav-icon {
+            width: 130px; /* Set width for icon */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 20px; /* Horizontal spacing around icons */
+        }
+    </style>
+</head>
+<body>
+
+<div class="nav-wrapper">
+    <img src="c:\Users\aayus\Downloads\New folder\brainrot.jpg" class="nav-icon" alt="Brainrot">
+
+    <div class="pages">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Skills.html">Skills</a>
+        <a href="Hobbies.html">Hobbies</a>
+        <a href="Fun Facts.html">Fun Facts</a>
+
+    </div>
+    <img src="c:\Users\aayus\Downloads\New folder\brainrot.jpg" class="nav-icon" alt="Brainrot">
+
+</div>
+
+<h1>"What A Jack Of All Trades Does"</h1> <!-- Main title of the page -->
+
+<div class="funfact-container">
+    <!-- Each fun fact is contained in a .funfact-box div -->
+
+    <div class="funfact-box">
+        <img src="c:\Users\aayus\Downloads\New folder\siegefunfact.jpg" alt="Siege"> <!-- Fun Fact 1 Image -->
+        <h3>Gaming Addict</h3> <!-- Fun Fact 1 Name -->
+        <p>I can start playing a game for just 10 minutes and somehow end up playing for hours without realizing it.</p> <!-- Fun Fact 1 Description -->
+    </div> <!-- End of fun fact container -->
+
+    <div class="funfact-box">
+        <img src="c:\Users\aayus\Downloads\New folder\big k.jpg" alt="Kanye"> <!-- Fun Fact 2 Image -->
+        <h3>Music Everywhere</h3> <!-- Fun Fact 2 Name -->
+        <p>I like listening to music while doing homework, relaxing, or basically doing anything that does not require complete silence.</p> <!-- Fun Fact 2 Description -->
+    </div> <!-- End of fun fact container -->
+
+    <div class="funfact-box">
+        <img src="c:\Users\aayus\Downloads\New folder\new ting.webp" alt="New"> <!-- Fun Fact 3 Image -->
+        <h3>Always Trying Something New</h3> <!-- Fun Fact 3 Name -->
+        <p>I enjoy trying new things because you never know when you might discover a new hobby or something you are actually good at.</p> <!-- Fun Fact 3 Description -->
+    </div> <!-- End of fun fact container -->
+
+    <div class="funfact-box">
+        <img src="c:\Users\aayus\Downloads\New folder\tech.webp" alt="Tech"> <!-- Fun Fact 4 Image -->
+        <h3>Tech Curious</h3> <!-- Fun Fact 4 Name -->
+        <p>I enjoy learning random things about computers, technology, and AI, even if I sometimes have no idea what I am looking at at first.</p> <!-- Fun Fact 4 Description -->
+    </div> <!-- End of fun fact container -->
+
+
+</div>
+</body>
+</html>
